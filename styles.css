@@ -16,11 +16,6 @@ ul a{
 ul a:hover{
     text-decoration: underline;
 }
-#pobre1{
-    padding: 3px;
-    border: solid 1px black;
-    font-weight: 600;
-}
 
 .secciones{
     margin-top: 50px;
@@ -32,4 +27,12 @@ ul a:hover{
 
 #boton1{
     box-shadow: transparent;
+}
+
+:
+@media screen and (min-width: 650px)and( orientation: landscape){
+    #boton1{
+        box-shadow: transparent;
+    aca se modifica para cuando se cambia la dim 
+    de la pantalla segun px
 }
